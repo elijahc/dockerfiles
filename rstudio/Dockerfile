@@ -11,4 +11,4 @@
 FROM jess/rstudio
 
 # Autorun Rstudio
-ENTRYPOINT [ "rstudio" ]
+# ENTRYPOINT [ "rstudio" ]
