@@ -19,5 +19,3 @@ RUN /usr/local/bin/apt-install \
         && pear upgrade-all \
         && pear config-set auto_discover 1 \
         && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/ --filename=composer
-
-EXPOSE 9000
