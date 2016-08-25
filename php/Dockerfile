@@ -1,7 +1,7 @@
-FROM debian
+FROM elijahc/base:debian-8
 
 # Install php
-RUN /usr/local/bin/apt-install \
+RUN apt-get install -qy \
         php5-cli \
         php5-json \
         php5-intl \
