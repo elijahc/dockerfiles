@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -qy \
         curl \
         git \
         vim \
+        openssh \
         php5-cli \
         php5-json \
         php5-curl \
